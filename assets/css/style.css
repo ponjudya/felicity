@@ -1,0 +1,244 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.indexbody {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.cover {
+	padding: 10rem;
+}
+
+
+
+/*social links*/
+
+i {
+	color: black;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0;
+	
+}
+
+cite {
+	color: white;
+}
+
+.fb:hover{
+	background-color: blue;
+}
+
+.ig:hover {
+	background-color: violet;
+}
+
+.tw:hover {
+	background-color: lightblue;
+}
+
+.yt:hover {
+	background-color: red;
+}
+
+
+}
+/*-----> end social links*/
+
+
+span {
+	border: 1px solid white;
+}
+
+a {
+	color: white;
+}
+
+.stroke
+{
+	font-family: 'Pinyon Script', cursive;
+	color: black;
+	font-size: 100px;
+/*    text-shadow:
+    -2px -1px 0 #ffffff,
+    1px -2px 0 #ffffff,
+    -2px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;  */
+}
+
+
+
+.content1 {
+	color: white;
+}
+
+
+.inner2 {
+	margin-top: 7em;
+}
+
+
+
+
+
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+#know {
+		font-size: 3.5em;
+		/*text-align: center;*/
+	}
+
+	.content1 {
+		font-size: 1em;
+	}
+
+	.cover {
+		padding: 0;
+	}
+
+	i {
+		margin: 0;
+	}
+
+	a {
+		font-size: 0.75em;
+	}
+
+	.container-fluid {
+		height: 100%;
+	}
+
+	.inner2 {
+		margin-top: 1em;
+	}
+
+	.inner {
+		margin-bottom: 5em;
+	}
+
+}
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+#know {
+		font-size: 1em;
+		/*text-align: center;*/
+	}
+
+	.cover {
+		padding: 0;
+	}
+
+	i {
+		margin: 0;
+	}
+
+	.inner2 {
+		margin-top: 9em;
+	}
+
+
+ }
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+#coverLand {
+		padding-bottom: 0;
+		margin-top: 0;
+
+	}
+
+	#know {
+		font-size: 8em;
+	}
+
+/*	.cover {
+		padding: 0;
+	}*/
+
+	i {
+		margin: 0;
+	}
+
+	.cover {
+		padding: 12rem;
+	}
+
+	.container-fluid {
+		height: 100%;
+	}
+
+	.inner2 {
+		margin-top: 5em;
+	}
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	#coverLand {
+		padding-bottom: 0;
+	}
+
+	.cover {
+	padding: 11rem;
+	}
+
+
+	#know {
+		font-size: 8em;
+	}
+
+/*	.cover {
+		padding: 0;
+	}*/
+
+	i {
+		margin: 0;
+	}
+
+	.cover {
+		padding: 12rem;
+	}
+
+	.container-fluid {
+		height: 100%;
+	}
+
+	.inner2 {
+		margin-top: 15em;
+	}
+
+	.navbtn {
+		font-size: 2em;
+	}
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.navbtn {
+		font-size: 2em;
+	} }
