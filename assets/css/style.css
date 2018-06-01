@@ -7,11 +7,11 @@
 
 
 .indexbody {
-	background: url(../images/bg.jpg);
+	background: url(../images/bg2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 100vh;
+	/*height: 100vh;*/
 }
 
 .cover {
@@ -23,7 +23,7 @@
 /*social links*/
 
 i {
-	color: black;
+	color: white;
 	margin-top: 2em;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -31,7 +31,7 @@ i {
 	
 }
 
-cite {
+.blockquote-footer {
 	color: white;
 }
 
@@ -56,6 +56,8 @@ cite {
 /*-----> end social links*/
 
 
+/*additional*/
+
 span {
 	border: 1px solid white;
 }
@@ -76,8 +78,6 @@ a {
     1px 1px 0 #ffffff;  */
 }
 
-
-
 .content1 {
 	color: white;
 }
@@ -87,9 +87,75 @@ a {
 	margin-top: 7em;
 }
 
+#know {
+	color: white;
+}
+/*end of additional*/
+
+/*signs*/
+.stroke1
+{
+	font-family: 'Pinyon Script', cursive;
+	color: black;
+	font-size: 50px;
+	margin-top: 0.5em;
+}
 
 
 
+.imagesign {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+/*  left: 50%;*/
+  
+  text-align: center;
+}
+
+.card:hover .imagesign {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.textsign1 {
+  background-color: #29427b;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.cardtips {
+	background-color: black;
+}
+
+.topbtn {
+	color:white;
+}
+
+.conLabel {
+	color: white;
+}
+
+#footerbot {
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+}
+
+/*media queries*/
 
 
 
@@ -220,7 +286,7 @@ a {
 	}
 
 	.cover {
-		padding: 12rem;
+		padding: 11rem;
 	}
 
 	.container-fluid {
