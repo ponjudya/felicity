@@ -7,27 +7,68 @@
 
 
 .indexbody {
-	background: url(../images/bg2.jpg);
+	background: url(../images/wed.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	/*height: 100vh;*/
 }
 
-.cover {
-	padding: 10rem;
+/*.indexbody2 {
+	background: url(../images/bg6.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*height: 100vh;*/
+}
+*/
+.indexbody3 {
+	background: url(../images/bg18.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*height: 100vh;*/
 }
 
+.indexbody4 {
+	background: url(../images/bg19.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*height: 100vh;*/
+}
+.containerbg {
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg8.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
+.cover {
+	padding-top: 8rem;
+	padding-right: 10rem;
+	padding-bottom: 4rem;
+	padding-left: 10rem;
+}
+
+#felIcon {
+	height: 4em;
+}
+
+.nav-tabs {
+	margin-bottom: 1.25em;
+}
 
 /*social links*/
 
 i {
-	color: white;
-	margin-top: 2em;
+	color: black;
+	margin-top: 1.5em;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-bottom: 0;
+	outline: 3px solid white;
 	
 }
 
@@ -69,35 +110,47 @@ a {
 .stroke
 {
 	font-family: 'Pinyon Script', cursive;
-	color: black;
-	font-size: 100px;
-/*    text-shadow:
-    -2px -1px 0 #ffffff,
-    1px -2px 0 #ffffff,
-    -2px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;  */
+	color: #44883c;
+	font-size: 11em;
+	text-shadow:
+    -2px -1px 0 #000000,
+    1px -2px 0 #000000,
+    -2px 1px 0 #000000,
+    1px 1px 0 #000000; 
 }
 
 .content1 {
-	color: white;
+	color: 	#44883c;
+	font-size: 1.5em;
+	text-shadow:
+    -2px -1px 0 #f5f6f7,
+    1px -2px 0 #f5f6f7,
+    -2px 1px 0 #f5f6f7,
+    1px 1px 0 #f5f6f7; 
 }
 
 
 .inner2 {
-	margin-top: 7em;
+	margin-top: 0;
 }
 
 #know {
 	color: white;
 }
+
+.footer {
+	width: 100%;
+}
+
+
 /*end of additional*/
 
 /*signs*/
 .stroke1
 {
 	font-family: 'Pinyon Script', cursive;
-	color: black;
-	font-size: 50px;
+	color: #2a333c;
+	font-size: 3em;
 	margin-top: 0.5em;
 }
 
@@ -138,15 +191,16 @@ a {
 }
 
 .cardtips {
-	background-color: black;
+	background-color: #2a333c;
 }
 
 .topbtn {
-	color:white;
+	color:black;
 }
 
 .conLabel {
-	color: white;
+	color: #f5f6f7;
+	font-size: 2em;
 }
 
 #footerbot {
@@ -154,6 +208,44 @@ a {
 	bottom: 0;
 	width: 90%;
 }
+
+
+/* tab color */
+.nav-tabs>a {
+  background-color: #44883c; 
+  border-color: #777777;
+  color:#fff;
+}
+
+/* active tab color */
+.nav-tabs>.active>a, .nav-tabs>a.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: #fff;
+  background-color: #666;
+  border: 1px solid #888888;
+}
+
+/* hover tab color */
+.nav-tabs>li>a:hover {
+  border-color: #000000;
+  background-color: #111111;
+}
+
+
+/*carousel*/
+.carouselimg {
+	height: 45em;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /*media queries*/
 
@@ -176,7 +268,11 @@ a {
 	}
 
 	i {
-		margin: 0;
+		color: black;
+		margin-top: 3em;
+		margin-right: 0.75em;
+		margin-bottom: 0;
+		margin-left: 0;
 	}
 
 	a {
@@ -188,12 +284,52 @@ a {
 	}
 
 	.inner2 {
-		margin-top: 1em;
+		margin-top: -8em;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
 	}
 
 	.inner {
 		margin-bottom: 5em;
 	}
+
+	.containerbg {
+		height: 73.5vh;
+	}
+
+	.nav-tabs {
+	margin-bottom: 0;
+
+}
+	#wedcar {
+		width: 100%;
+	}
+
+	.carouselimg {
+	height: 15em;
+
+	}
+
+	.textsign1 {
+		font-size: 0.75em;
+	}
+
+	.footerAbout {
+	position: absolute;
+	top: 175em;
+	left: 6em;
+	z-index: 99999;
+}
+
+	.topbtn {
+	color: black;
+	position: relative;
+	top: 179em;
+	left: 0;
+	}
+
+
 
 }
 
@@ -213,13 +349,19 @@ a {
 	}
 
 	i {
-		margin: 0;
+		margin-top: 3.5em;
+		margin-right: 0.75em;
+		margin-bottom: 0;
+		margin-left: 0;
 	}
 
 	.inner2 {
 		margin-top: 9em;
 	}
-
+	#wedcar {
+		width: 100%;
+	}
+	
 
  }
 
@@ -243,9 +385,13 @@ a {
 	}*/
 
 	i {
-		margin: 0;
-	}
-
+	margin-top: 1.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0;
+	outline: 3px solid white;
+	
+}
 	.cover {
 		padding: 12rem;
 	}
@@ -257,6 +403,32 @@ a {
 	.inner2 {
 		margin-top: 5em;
 	}
+	#wedcar {
+		width: 100%;
+	}
+
+
+	}
+
+	.footerAbout {
+	position: absolute;
+	top: 170em;
+	left: 11em;
+	z-index: 99999;
+}
+
+	.topbtn {
+	color: black;
+	position: relative;
+	top: 5em;
+	left: 0;
+	}
+
+	.containerbg {
+		height: 80vh;
+	}
+
+
 
 
  }
@@ -282,7 +454,10 @@ a {
 	}*/
 
 	i {
-		margin: 0;
+		margin-top: 1em;
+		margin-right: 0.75em;
+		margin-bottom: 0;
+		margin-left: 0;
 	}
 
 	.cover {
@@ -294,12 +469,29 @@ a {
 	}
 
 	.inner2 {
-		margin-top: 15em;
+		margin-top: 4em;
 	}
 
 	.navbtn {
 		font-size: 2em;
 	}
+	.containerbg {
+		height: 80vh;
+	}
+
+	.nav-tabs {
+	margin-bottom: 1.25em;
+	}
+	#wedcar {
+		width: 100%;
+	}
+
+	.footerAbout {
+	position: absolute;
+	top: 170em;
+	left: 8em;
+	z-index: 99999;
+}
 
  }
 
