@@ -295,7 +295,7 @@ a {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		height: 25em;
+		height: 100%;
 	}	
 	body {
 		padding: 0;
@@ -395,7 +395,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 25em;
+
 	}
 
 	body {
