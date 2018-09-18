@@ -6,11 +6,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Felicity | Contact Us</title>
+	<title>Felicity | Services </title>
 
 
-	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+	<script>
+
+	new WOW().init();
+
+	</script>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -23,14 +50,16 @@
 
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Pinyon+Script|Tangerine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 
 	<!-- favicon -->
 	<link rel="icon" type="img/gif/png" href="assets/images/icon.png">
 
+
 </head>
 
 
-<body class="text-center indexbody4 top">
+<body class="text-center top">
 
 	<div class="container-fluid d-flex w-100 p-3 mx-auto flex-column">
 
@@ -38,12 +67,10 @@
 			<div class="inner">
 				<!-- reserved part for logo -->
 				<nav class="nav nav-tabs nav-masthead justify-content-center">
-
-
 				  <div class="nav nav-tabs" id="nav-tab" role="tablist">
 				    <a class="nav-item nav-link" id="nav-home-tab" href="index.html" role="tab">Home</a>
-				    <a class="nav-item nav-link" id="nav-profile-tab" href="signs.html" role="tab">About</a>
-				    <a class="nav-item nav-link" id="nav-contact-tab" href="tips.html" role="tab">Services</a>
+				    <a class="nav-item nav-link" id="nav-profile-tab" href="about.html" role="tab">About</a>
+				    <a class="nav-item nav-link" id="nav-contact-tab" href="services.html" role="tab">Services</a>
 				    <a class="nav-item nav-link active" id="nav-contact-tab" href="contact.html" role="tab">Contact</a>
 				  </div>
 				</nav>
@@ -59,26 +86,25 @@
 			</div> <!-- end of inner -->
 		</header> <!-- end of header -->
 
-		<div class="containerbg">
-
 		<main class="inner" role="main" id="coverLand">
-			<h3 class="stroke1 animated flash">Contact Felicity</h3><br>
-			<p class="content1">“Get immediate response from our team”</p>			
+			<h3 class="stroke2 animated flash">Contact Felicity</h3>
+			<p class="content2">“Get immediate response from our team”</p>			
 		</main> <!-- end of main -->	
 
 
-		
+	<div class="col-md-12" id="contactSpace">
+	<div class="card bg-transparent mr-3 ml-3 z-depth-5">
 		<!-- form -->
 
-		<form>
+		<form class="pt-2 pr-5 pl-5">
 		  <div class="form-row">
 		    <div class="col-md-3 mb-3">
 		      <label class="conLabel" for="validationDefault01">First name</label>
-		      <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Judy Anne" required>
+		      <input type="text" class="form-control text-center contactLabel" id="validationDefault01" placeholder="First name" value="Judy Anne" required>
 		    </div>
 		    <div class="col-md-3 mb-3">
 		      <label class="conLabel" for="validationDefault02">Last name</label>
-		      <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Pontiveros" required>
+		      <input type="text" class="form-control text-center contactLabel" id="validationDefault02" placeholder="Last name" value="Pontiveros" required>
 		    </div>
 		    <div class="col-md-3 mb-3">
 		      <label class="conLabel" for="validationDefaultUsername">Email address</label>
@@ -86,50 +112,59 @@
 		        <div class="input-group-prepend">
 		          <span class="input-group-text" id="inputGroupPrepend2">@</span>
 		        </div>
-		        <input type="text" class="form-control" id="validationDefaultEmail" placeholder="Email" aria-describedby="inputGroupPrepend2" required>
+		        <input type="text" class="form-control text-center contactLabel" id="validationDefaultEmail" placeholder="Email" aria-describedby="inputGroupPrepend2" required>
 		      </div>
 		    </div>
 		    <div class="col-md-3 mb-3">
 		      <label class="conLabel" for="validationDefault11">Contact number</label>
-		      <input type="number" class="form-control" id="validationDefault11" placeholder="ContactNumber" required>
+		      <input type="number" class="form-control text-center contactLabel" id="validationDefault11" placeholder="ContactNumber" required>
 		    </div>
 		    
 		  </div> <!-- end form row -->
 
 		  <div class="form-group">
 		    <label class="conLabel" for="exampleFormControlTextarea1">Comments</label>
-		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		    <textarea class="form-control contactLabel" id="exampleFormControlTextarea1" rows="3" placeholder="Your comments..."></textarea>
 		  </div>
 
 		  <div class="form-group">
-		    <button class="btn btn-success" type="submit">Submit</button>
+		    <button class="btn btn-success animated pulse infinite" id="contactBtn" type="submit">Submit</button>
 		</form>
 
 		<!-- end form -->
 
+	</div><!--  end card -->
+	</div> <!-- end col-md -->
 
-	</div> <!-- end of containerbg -->
-
+	<!-- Footer -->
+	<footer class="black p-0 m-0 fixed-bottom text-center">
 		
-
-		<footer class="footer">
-					<a href="http://facebook.com" target="_blank">
-						<i class="fab fa-facebook-square fa-2x fb"></i>
-					</a>
-								
-					<a href="https://www.instagram.com/?hl=en" target="_blank">
-						<i class="fas fa-camera-retro fa-2x ig"></i>					
-					</a>
-								
-					<a href="http://twitter.com" target="_blank">
-						<i class="fab fa-twitter-square fa-2x tw"></i>
-					</a>
-								
-					<a href="http://youtube.com" target="_blank">
-						<i class="fab fa-youtube-square fa-2x yt"></i>
-					</a>
+    <div class="footer-copyright text-center text-white py-1">
+    		
+    		<span id="copyright">No copyright infringement intended |</span>
+    		<a href="https://ponjudya.github.io/portfolio" target="_blank" id="myName">  Judy Anne Pontiveros</a> <br>
+    		<a href="http://facebook.com" target="_blank">
+				<i class="fab fa-facebook-square fb"></i>
+			</a>
+						
+			<a href="https://www.instagram.com/?hl=en" target="_blank">
+				<i class="fas fa-camera-retro ig"></i>					
+			</a>
+						
+			<a href="http://twitter.com" target="_blank">
+				<i class="fab fa-twitter-square tw"></i>
+			</a>
+						
+			<a href="http://youtube.com" target="_blank">
+				<i class="fab fa-youtube-square yt"></i>
+			</a>
 			
-		</footer> <!-- end of footer -->
+    </div>
+    <!-- Copyright -->
+
+  	</footer>
+  	<!-- Footer -->
+
 
 	</div> <!-- end of container -->
 
