@@ -9,6 +9,23 @@
 	<title>Felicity | Home </title>
 
 
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
+
+
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -23,14 +40,16 @@
 
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Pinyon+Script|Tangerine" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="icon" type="img/gif/png" href="assets/images/icon.png">
+	<link rel="icon" type="img/gif/png" href="assets/images/icon1.png">
 
 </head>
 
 
 <body class="text-center indexbody">
+	<div class="col-md-12">
 
 	<div class="container-fluid d-flex w-100 p-3 mx-auto flex-column">
 		
@@ -44,8 +63,8 @@
 
 				  <div class="nav nav-tabs" id="nav-tab" role="tablist">
 				    <a class="nav-item nav-link active" id="nav-home-tab" href="index.html" role="tab">Home</a>
-				    <a class="nav-item nav-link" id="nav-profile-tab" href="signs.html" role="tab">About</a>
-				    <a class="nav-item nav-link" id="nav-contact-tab" href="tips.html" role="tab">Services</a>
+				    <a class="nav-item nav-link" id="nav-profile-tab" href="about.html" role="tab">About</a>
+				    <a class="nav-item nav-link" id="nav-contact-tab" href="services.html" role="tab">Services</a>
 				    <a class="nav-item nav-link" id="nav-contact-tab" href="contact.html" role="tab">Contact</a>
 				  </div>
 				</nav>
@@ -61,22 +80,23 @@
 			</div> <!-- end of inner -->
 		</header> <!-- end of header -->
 	
-
-<div class="containerbg">
-		<main class="inner cover" role="main" id="coverLand">
-
-			<p class="content1">Your road to <strong>forever</strong> begins with</p>
+		<div class="space">
+		<main class="inner cover rgba-grey-light" role="main" id="coverLand">
+			
+			<p class="content1" id="forever">Your road to <strong>forever</strong> begins with</p>
 			<br>
-			<img id="felIcon" src="assets/images/icon.png"> <h1 class="stroke" id="know">Felicity</h1> 
+			<img id="felIcon" src="assets/images/icon.png" class="animated pulse infinite"> <h1 class="stroke" id="know">Felicity</h1> 
 
 
 			
 			<!-- Modal button -->
-			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Click to forever
+			<button type="button" id="foreverBtn" class="btn btn-success animated pulse infinite" data-toggle="modal" data-target="#exampleModalCenter">Click to forever
 			</button>
 
+		</div> <!-- end space -->
+
 			<!-- Modal -->
-			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog">
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" style="height: 90%;">
 			  <div class="modal-dialog modal-dialog-centered" role="document">
 			    <div class="modal-content">
 			      <div class="modal-header">
@@ -85,10 +105,10 @@
 			      </div>
 			      <div class="modal-body">
 
-			        <img id="wedcar" src="assets/images/wedcar2.gif">
+			        <img id="wedcar" src="assets/images/wedcar2.gif" style="height: 10em;">
 
 			        <div class="form-group">
-		    <label class="conLabel" for="exampleFormControlTextarea1">Your Story</label>
+		  <!--   <label class="conLabel text-dark font-small" for="exampleFormControlTextarea1">Your Story</label> -->
 		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Type your story here"></textarea>
 		  </div>
 
@@ -101,52 +121,45 @@
 			</div>   
 
 		</main> <!-- <-- end of main -->
-
-
-		</div> <!--  end of containerbg -->
-
-
-		
-		<!-- <img src="assets/images/wedcar2.gif">  -->
-		<footer class="mastfoot">
-			<div class="inner2">		
-					<span class="justify-content-center">
-			
-					<a href="http://facebook.com" target="_blank">
-						<i class="fab fa-facebook-square fa-2x fb"></i>
-					</a>
-								
-					<a href="https://www.instagram.com/?hl=en" target="_blank">
-						<i class="fas fa-camera-retro fa-2x ig"></i>					
-					</a>
-								
-					<a href="http://twitter.com" target="_blank">
-						<i class="fab fa-twitter-square fa-2x tw"></i>
-					</a>
-								
-					<a href="http://youtube.com" target="_blank">
-						<i class="fab fa-youtube-square fa-2x yt"></i>
-					</a>
-
-					</span>
-			</div>  <!-- end of inner after footer -->
-			
-		</footer> <!-- end of footer -->
-
-
-		
-		
-
-
-
+	
 	</div> <!-- end of container -->
+	
 
+	<!-- Footer -->
+	<footer class="black p-0 m-0 fixed-bottom text-center">
+		
+    <div class="footer-copyright text-center text-white py-1">
+    		
+    		<span id="copyright">No copyright infringement intended |</span>
+    		<a href="https://ponjudya.github.io/portfolio" target="_blank" id="myName">  Judy Anne Pontiveros</a> <br>
+    		<a href="http://facebook.com" target="_blank">
+				<i class="fab fa-facebook-square fb"></i>
+			</a>
+						
+			<a href="https://www.instagram.com/?hl=en" target="_blank">
+				<i class="fas fa-camera-retro ig"></i>					
+			</a>
+						
+			<a href="http://twitter.com" target="_blank">
+				<i class="fab fa-twitter-square tw"></i>
+			</a>
+						
+			<a href="http://youtube.com" target="_blank">
+				<i class="fab fa-youtube-square yt"></i>
+			</a>
+			
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
 
 	<!-- external js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+</div>
 
 </body>
 </html>
