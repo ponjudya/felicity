@@ -290,9 +290,19 @@ a {
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
+	.indexbody {
+		background: url(../images/carousel5.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		height: 25em;
+	}	
 	body {
 		padding: 0;
 		margin: 0;
+		background:url(../images/spring.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	/*index page*/
@@ -380,10 +390,22 @@ a {
 @media (min-width: 768px) and (max-width: 991px) { 
 
 	/*index page*/
+	.indexbody {
+	background: url(../images/carousel5.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 25em;
+	}
+
 	body {
 		margin: 0;
 		padding: 0;
-	}
+		background:url(../images/spring.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+
 	a {
 		font-size: 1.5em;
 		text-align: center;
@@ -479,6 +501,20 @@ a {
 @media (min-width: 992px) and (max-width: 1199px) { 
 	
 	/*index page*/
+
+	.indexbody {
+	background: url(../images/carousel5.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+
+	body {
+	background:url(../images/spring.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
 	a {
 		font-size: 2em;
 		text-align: center;
